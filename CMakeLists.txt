@@ -14,7 +14,7 @@ add_message_files(
   RPY.msg
   Pose.msg
   PoseStamped.msg
-  NaivePoses.msg
+  PoseVec.msg
 )
 
 # add_service_files(
