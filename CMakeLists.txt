@@ -15,12 +15,14 @@ add_message_files(
   Pose.msg
   PoseStamped.msg
   PoseVec.msg
+  MotorVelocities.msg
+  ProximitySensors.msg
 )
 
-# add_service_files(
-#   FILES 
-
-# )
+add_service_files(
+  FILES 
+  EnableIR.srv
+)
 
 generate_messages(DEPENDENCIES
   std_msgs geometry_msgs
