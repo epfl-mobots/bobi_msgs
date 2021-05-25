@@ -22,6 +22,7 @@ add_message_files(
 add_service_files(
   FILES 
   EnableIR.srv
+  MaxAcceleration.srv
 )
 
 generate_messages(DEPENDENCIES
