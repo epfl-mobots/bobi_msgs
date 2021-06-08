@@ -23,6 +23,7 @@ add_service_files(
   FILES 
   EnableIR.srv
   MaxAcceleration.srv
+  ConvertCoordinates.srv
 )
 
 generate_messages(DEPENDENCIES
