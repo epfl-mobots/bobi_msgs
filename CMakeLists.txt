@@ -17,11 +17,13 @@ add_message_files(
   PoseVec.msg
   MotorVelocities.msg
   ProximitySensors.msg
+  TemperatureSensors.msg
 )
 
 add_service_files(
   FILES 
   EnableIR.srv
+  EnableTemp.srv
   MaxAcceleration.srv
   ConvertCoordinates.srv
 )
