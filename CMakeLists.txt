@@ -25,6 +25,7 @@ add_service_files(
   EnableIR.srv
   EnableTemp.srv
   MaxAcceleration.srv
+  MaxTemperature.srv
   ConvertCoordinates.srv
 )
 
