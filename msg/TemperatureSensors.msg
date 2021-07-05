@@ -1,2 +1,2 @@
 Header header
-int32[] values
+float32[] values
