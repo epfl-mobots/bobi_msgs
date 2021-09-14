@@ -16,6 +16,7 @@ add_message_files(
   PoseStamped.msg
   PoseVec.msg
   MotorVelocities.msg
+  MotorVelocitiesStamped.msg
   ProximitySensors.msg
   TemperatureSensors.msg
 )
@@ -24,6 +25,7 @@ add_service_files(
   FILES 
   EnableIR.srv
   EnableTemp.srv
+  ReturnVelocity.srv
   MaxAcceleration.srv
   MaxTemperature.srv
   ConvertCoordinates.srv
