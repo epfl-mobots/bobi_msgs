@@ -29,6 +29,7 @@ add_service_files(
   MaxAcceleration.srv
   MaxTemperature.srv
   ConvertCoordinates.srv
+  HighCurrent.srv
 )
 
 generate_messages(DEPENDENCIES
