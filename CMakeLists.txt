@@ -28,6 +28,7 @@ add_service_files(
   ReturnDroppedMsgs.srv
   MaxAcceleration.srv
   ConvertCoordinates.srv
+  DutyCycle.srv
 )
 
 generate_messages(DEPENDENCIES
