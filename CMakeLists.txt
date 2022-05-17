@@ -18,6 +18,7 @@ add_message_files(
   MotorVelocities.msg
   MotorVelocitiesStamped.msg
   ProximitySensors.msg
+  DroppedMessages.msg
 )
 
 add_service_files(
