@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(bobi_msgs)
 
-add_compile_options(-std=c++11)
+add_compile_options(-std=c++17)
 
 find_package(catkin REQUIRED COMPONENTS
   geometry_msgs
@@ -18,18 +18,15 @@ add_message_files(
   MotorVelocities.msg
   MotorVelocitiesStamped.msg
   ProximitySensors.msg
-  TemperatureSensors.msg
 )
 
 add_service_files(
   FILES 
   EnableIR.srv
-  EnableTemp.srv
   ReturnVelocity.srv
+  ReturnDroppedMsgs.srv
   MaxAcceleration.srv
-  MaxTemperature.srv
   ConvertCoordinates.srv
-  HighCurrent.srv
 )
 
 generate_messages(DEPENDENCIES
