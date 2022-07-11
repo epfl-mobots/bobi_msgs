@@ -19,6 +19,7 @@ add_message_files(
   MotorVelocitiesStamped.msg
   ProximitySensors.msg
   DroppedMessages.msg
+  Temperature.msg
 )
 
 add_service_files(
@@ -29,6 +30,7 @@ add_service_files(
   MaxAcceleration.srv
   ConvertCoordinates.srv
   DutyCycle.srv
+  ReturnTemperature.srv
 )
 
 generate_messages(DEPENDENCIES
