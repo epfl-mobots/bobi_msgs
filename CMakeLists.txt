@@ -20,10 +20,11 @@ add_message_files(
   ProximitySensors.msg
   DroppedMessages.msg
   Temperature.msg
+  SpeedEstimateVec.msg
 )
 
 add_service_files(
-  FILES 
+  FILES
   EnableIR.srv
   ReturnVelocity.srv
   ReturnDroppedMsgs.srv
@@ -40,4 +41,3 @@ generate_messages(DEPENDENCIES
 catkin_package(
   CATKIN_DEPENDS message_runtime
 )
-
