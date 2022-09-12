@@ -21,6 +21,7 @@ add_message_files(
   DroppedMessages.msg
   Temperature.msg
   SpeedEstimateVec.msg
+  KickSpecs.msg
 )
 
 add_service_files(
