@@ -22,6 +22,7 @@ add_message_files(
   Temperature.msg
   SpeedEstimateVec.msg
   KickSpecs.msg
+  DLISpecs.msg
 )
 
 add_service_files(

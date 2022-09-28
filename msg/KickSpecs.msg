@@ -1,0 +1,10 @@
+int32 state
+bobi_msgs/PoseStamped agent
+bobi_msgs/PoseVec neighs
+float32 target_x
+float32 target_y
+float32 dl
+float32 phi
+float32 dphi
+float32 tau
+float32 tau0
