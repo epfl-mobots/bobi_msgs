@@ -23,6 +23,7 @@ add_message_files(
   SpeedEstimateVec.msg
   KickSpecs.msg
   DLISpecs.msg
+  NumAgents.msg
 )
 
 add_service_files(
@@ -34,6 +35,7 @@ add_service_files(
   ConvertCoordinates.srv
   DutyCycle.srv
   ReturnTemperature.srv
+  GetNumAgents.srv
 )
 
 generate_messages(DEPENDENCIES
