@@ -24,6 +24,7 @@ add_message_files(
   KickSpecs.msg
   DLISpecs.msg
   NumAgents.msg
+  TargetPose.msg
 )
 
 add_service_files(
