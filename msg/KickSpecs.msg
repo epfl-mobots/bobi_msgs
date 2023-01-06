@@ -9,3 +9,6 @@ float32 dphi
 float32 tau
 float32 tau0
 int32 perceived
+bool intervene
+float32 gatt
+float32 gali

@@ -37,6 +37,7 @@ add_service_files(
   DutyCycle.srv
   ReturnTemperature.srv
   GetNumAgents.srv
+  BacIntervene.srv
 )
 
 generate_messages(DEPENDENCIES
